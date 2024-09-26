@@ -38,14 +38,13 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
 
 
 ## ERD
+![image](https://github.com/user-attachments/assets/9499abb0-fd95-43ff-abba-f655391db7e9)
 
-![image](https://github.com/user-attachments/assets/dbd52844-ef85-44e0-91cf-b757a7e0d511)
 
 
 ## UML Diagram Use Case
 
 ![image](https://github.com/user-attachments/assets/9499abb0-fd95-43ff-abba-f655391db7e9)
-
 
 ## Teknologi yang di gunakan
  - laravel 10
