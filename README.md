@@ -47,6 +47,7 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
 ![Uploading image.png…]()
 
 
+
 ## Teknologi yang di gunakan
  - laravel 10
  - bootstrap 5
