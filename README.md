@@ -42,9 +42,9 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
 
 
 
-## UML Diagram Use Case
+## UML Diagram Use 
+![image](https://github.com/user-attachments/assets/be3e0835-c783-4819-a3f2-ea85893b6716)
 
-![Uploading image.png…]()
 
 
 
