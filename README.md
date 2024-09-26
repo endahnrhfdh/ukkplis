@@ -44,7 +44,8 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
 
 ## UML Diagram Use Case
 
-![image](https://github.com/user-attachments/assets/9499abb0-fd95-43ff-abba-f655391db7e9)
+![Uploading image.png…]()
+
 
 ## Teknologi yang di gunakan
  - laravel 10
