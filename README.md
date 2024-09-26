@@ -1,64 +1,76 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## Konsep web yang saya buat
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakulikuler
 
-## About Laravel
+## Fitur yang tersedia
+- login
+- logout
+- Halaman pengguna
+- Halaman tamu
+   
+## Authentication
+   - Login
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Multiuser
+  - pengguna
+   1. menambah data
+   2. mengedit data
+   3. menghapus data
+   4. melihat semua data
+      
+  - tamu
+   1. hanya melihat data
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## pencarian
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+ 1.kategori ekstrakulikuler
+ 
+ 2.nama siswa,kelas siswa,alamat siswa
+  
 
-## Learning Laravel
+## Akun default untuk pengujian  
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- pengguna
+  
+  email : admin@gmail.com
+  
+  password : admin123
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## ERD
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+![image](https://github.com/user-attachments/assets/dbd52844-ef85-44e0-91cf-b757a7e0d511)
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## UML Diagram Use Case
 
-## Contributing
+![image](https://github.com/user-attachments/assets/9499abb0-fd95-43ff-abba-f655391db7e9)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+## Teknologi yang di gunakan
+ - laravel 10
+ - bootstrap 5
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Persyaratan melakukan instalasi
+  - PHP 8.1.0 & Web server
+  - Database (laragon)
+  - Web Browser (Chrome atau Firefox)
 
-## Security Vulnerabilities
+## Instalasi
+ 1. clone repositori
+    
+  git clone (https://github.com/endahnrhfdh/ukk-eskul).git 
+  cd ukk-eskul
+  
+ 2. composer install
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+ 3.mendownload database :     cp.env.example .env
+ 
+ 4.konfigurasi database pada file .env
+    
+ php artisan key:generate php artisan storage:link php artisan migrate --seed
+ 
+ 5.menjalankan server
+ php artisan serve
+    
+## ukk eskul di buat oleh ndahh
