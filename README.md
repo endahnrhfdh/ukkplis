@@ -60,8 +60,8 @@ website ini merupakan sebuah aplikasi untuk pendataan siswa yang masuk ekstrakul
 ## Instalasi
  1. clone repositori
     
-  git clone (https://github.com/endahnrhfdh/ukk-eskul).git 
-  cd ukk-eskul
+  git clone (https://github.com/endahnrhfdh/ukk-eskul).git  
+  
   
  2. composer install
 
